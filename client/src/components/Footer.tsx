@@ -18,11 +18,12 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-construction-orange rounded-lg flex items-center justify-center">
-                <i className="fas fa-cube text-white"></i>
-              </div>
-              <span className="font-montserrat font-black text-xl">LOCKSTONE</span>
+            <div className="flex items-center mb-4">
+              <img 
+                src="@assets/ChatGPT Image May 26, 2025, 04_23_17 PM.png" 
+                alt="Lockstone Concrete Logo"
+                className="h-10 w-auto brightness-0 invert"
+              />
             </div>
             <p className="text-gray-300 mb-4">
               Ada County's premier concrete contractor with 25+ years of proven excellence in residential and commercial concrete solutions.

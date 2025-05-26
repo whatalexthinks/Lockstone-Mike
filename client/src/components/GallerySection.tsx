@@ -31,7 +31,7 @@ const concreteWork = [
     icon: "fas fa-building"
   },
   {
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    image: "https://i.imgur.com/anjDjYt.png",
     alt: "Concrete curb and gutter work equipment",
     title: "Curb Forming & Repair",
     description: "Precision curb and gutter work, street repairs, and municipal concrete infrastructure projects.",

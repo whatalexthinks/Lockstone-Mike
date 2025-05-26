@@ -3,7 +3,7 @@ import { useIntersectionObserver } from "@/hooks/useIntersectionObserver";
 
 const concreteWork = [
   {
-    image: "https://images.pexels.com/photos/7931/pexels-photo-7931.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+    image: "https://images.pexels.com/photos/7931/pexels-photo-7931.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     alt: "Commercial concrete building and structures",
     title: "Commercial Projects",
     description: "Large-scale concrete solutions for warehouses, retail spaces, and industrial facilities across Ada County.",
@@ -31,8 +31,8 @@ const concreteWork = [
     icon: "fas fa-building"
   },
   {
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Concrete curb forming and street work",
+    image: "@assets/Gemini_Generated_Image_4jhcgm4jhcgm4jhc.png",
+    alt: "Professional curb forming with specialized equipment",
     title: "Curb Forming & Repair",
     description: "Precision curb and gutter work, street repairs, and municipal concrete infrastructure projects.",
     icon: "fas fa-road"

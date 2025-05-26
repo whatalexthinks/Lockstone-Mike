@@ -1,0 +1,197 @@
+Build a stunning, modern website for Lockstone Concrete - a premium concrete contractor in Ada County, Idaho. Create a single-page responsive site that's visually impressive and concrete industry-focused.
+
+## COMPANY DETAILS
+- Name: Lockstone Concrete  
+- Phone: 208-860-7050
+- Service Area: Boise, Meridian, Kuna, Nampa, Caldwell (Ada County, Idaho)
+- USP: Decades of experience, local expertise
+
+## DESIGN THEME: Industrial Elegance
+Create a sophisticated concrete-industry aesthetic that's modern and impressive:
+
+### COLOR PALETTE
+- Primary: Deep Charcoal (#2C3E50)
+- Secondary: Concrete Gray (#95A5A6) 
+- Accent: Construction Orange (#E67E22)
+- Highlights: Steel Blue (#3498DB)
+- Base: Clean White (#FFFFFF)
+
+### VISUAL STYLE REQUIREMENTS
+- **Concrete Textures**: Use subtle concrete texture overlays on hero and section backgrounds
+- **Industrial Typography**: Bold, strong fonts (Montserrat/Roboto family)
+- **Sharp Geometric Shapes**: Angular design elements that suggest precision
+- **High-Contrast Photography Style**: Dramatic lighting on concrete work images
+- **Steel/Metal Accents**: Subtle metallic design elements and borders
+
+## COOL INTERACTIVE FEATURES TO IMPLEMENT
+
+### 1. ANIMATED HERO SECTION
+- **Parallax Background**: Slow-moving concrete texture background
+- **Typewriter Effect**: Main headline types out letter by letter
+- **Floating Particles**: Subtle concrete dust particle animation
+- **Animated Counter**: "25+ YEARS" counter that counts up on page load
+
+### 2. BEFORE/AFTER SLIDER
+- Interactive image slider showing concrete transformations
+- Smooth drag/swipe functionality
+- "BEFORE" and "AFTER" labels that animate in
+
+### 3. SERVICE CARDS WITH HOVER EFFECTS
+- Cards lift and cast shadows on hover
+- Background changes to concrete texture on hover
+- Icons animate (shovel digging, concrete pouring, etc.)
+- Subtle glow effects
+
+### 4. INTERACTIVE MAP SECTION
+- Animated map of Ada County with service areas highlighted
+- Clickable city markers that show popup info
+- Smooth zoom/pan animations
+
+### 5. TESTIMONIALS CAROUSEL
+- Auto-rotating testimonials with smooth transitions
+- Background shows faded concrete project images
+- Star ratings with filling animation
+- Customer photos in circular frames
+
+### 6. LOADING AND SCROLL ANIMATIONS
+- **Page Load**: Concrete pouring animation or building blocks stacking
+- **Scroll Reveals**: Sections fade in from bottom as user scrolls
+- **Progress Bar**: Show scroll progress with concrete-themed bar
+- **Smooth Parallax**: Background images move at different speeds
+
+## WEBSITE STRUCTURE
+
+### HEADER
+- Logo: "LOCKSTONE" in bold industrial font with concrete texture fill
+- Sticky navigation with smooth scroll
+- Phone number prominent with pulse animation
+- Mobile: Animated hamburger menu
+
+### HERO SECTION
+```
+[Large concrete project background image with dark overlay]
+
+"ADA COUNTY'S PREMIER CONCRETE EXPERTS"
+[Typewriter animation effect]
+
+"Building lasting foundations with 25+ years of proven expertise 
+across Boise, Meridian, Kuna, Nampa & Caldwell"
+
+[Animated counters: "25+ YEARS" | "500+ PROJECTS" | "100% LICENSED"]
+
+[CTA BUTTONS]
+"GET FREE ESTIMATE" (orange, with hover glow)
+"CALL (208) 860-7050" (outlined, with phone icon)
+```
+
+### SERVICES SECTION
+**Title**: "CONCRETE SOLUTIONS THAT LAST"
+
+Create 6 animated cards in a grid:
+1. **DRIVEWAYS** - Icon: Road/driveway
+2. **PATIOS & WALKWAYS** - Icon: Decorative pattern
+3. **FOUNDATIONS** - Icon: Building foundation
+4. **COMMERCIAL PROJECTS** - Icon: Skyscraper
+5. **DECORATIVE CONCRETE** - Icon: Artistic pattern
+6. **REPAIRS & RESTORATION** - Icon: Hammer/repair tool
+
+Each card: Hover lift effect, concrete texture background, animated icons
+
+### WHY CHOOSE US SECTION
+**Title**: "BUILT ON TRUST & EXPERTISE"
+
+Animated features grid:
+- **25+ Years Experience** - Animated counter
+- **Licensed & Insured** - Badge with verification checkmark
+- **Local Ada County Experts** - Map pin animation
+- **Premium Materials Only** - Quality seal icon
+- **Free Estimates** - Calculator icon with spinning effect
+- **Guaranteed Quality** - Shield icon with glow
+
+### BEFORE/AFTER GALLERY
+**Title**: "TRANSFORMATIONS THAT SPEAK FOR THEMSELVES"
+- Interactive before/after slider
+- 4-6 dramatic project transformations
+- Smooth transitions and hover effects
+
+### SERVICE AREA MAP
+**Title**: "PROUDLY SERVING ADA COUNTY"
+- Interactive map with animated markers for each city
+- Hover effects on each location
+- "GET ESTIMATE" buttons for each area
+
+### TESTIMONIALS
+**Title**: "WHAT OUR CUSTOMERS SAY"
+- Rotating carousel with 5-star ratings
+- Customer photos and project images
+- Smooth auto-play with pause on hover
+
+### CONTACT SECTION
+**Two-column layout with concrete texture separator**
+
+**LEFT: Contact Form**
+- Name, Phone, Email, Project Type, Description
+- Animated input fields with concrete-themed styling
+- "GET FREE ESTIMATE" submit button with loading animation
+
+**RIGHT: Contact Info**
+- Large phone number with call animation
+- Service area list with location icons
+- Business hours with clock icon
+- "Licensed & Insured" badges
+
+### FOOTER
+- Company info with concrete texture background
+- Social proof elements
+- Contact details
+- Copyright with concrete icon
+
+## TECHNICAL SPECIFICATIONS
+
+### ANIMATIONS & INTERACTIONS
+- **CSS Keyframes**: For loading animations and hover effects
+- **Intersection Observer**: For scroll-triggered animations
+- **Smooth Scrolling**: For navigation links
+- **Responsive Images**: Optimized for all devices
+- **Touch Gestures**: Swipe functionality for mobile carousels
+
+### MOBILE OPTIMIZATION
+- **Mobile-first responsive design**
+- **Touch-friendly buttons** (minimum 44px)
+- **Fast loading** (compress images, optimize code)
+- **Swipe gestures** for image galleries
+- **Collapsible mobile menu** with animation
+
+### PERFORMANCE FEATURES
+- **Lazy loading** for images below the fold
+- **Minified CSS/JS**
+- **Optimized images** (WebP format when possible)
+- **Preload critical resources**
+- **Smooth 60fps animations**
+
+## CONTENT TONE
+Write all copy in a confident, professional tone that emphasizes:
+- Decades of proven experience
+- Local Ada County expertise  
+- Quality craftsmanship
+- Reliability and trust
+- Professional licensing/insurance
+
+## FINAL TOUCHES
+- **Favicon**: Concrete-themed icon
+- **Loading Screen**: Concrete pouring animation
+- **404 Page**: "This page is still being poured" with concrete theme
+- **SEO Meta Tags**: Include location keywords
+- **Schema Markup**: Local business structured data
+
+## SUCCESS METRICS
+The final website should:
+✓ Load in under 3 seconds
+✓ Look stunning on mobile, tablet, desktop
+✓ Have smooth, impressive animations
+✓ Feel premium and professional
+✓ Generate leads through clear CTAs
+✓ Showcase concrete industry expertise
+✓ Build immediate trust and credibility
+
+Create a website that makes visitors think "These are the concrete experts I want to hire" within 5 seconds of landing on the page.

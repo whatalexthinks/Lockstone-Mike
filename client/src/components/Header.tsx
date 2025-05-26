@@ -93,8 +93,11 @@ export default function Header() {
               {['services', 'about', 'gallery', 'testimonials', 'contact'].map((item) => (
                 <button
                   key={item}
-                  onClick={() => scrollToSection(item)}
-                  className="block font-montserrat font-medium text-deep-charcoal capitalize w-full text-left"
+                  onClick={() => {
+                    scrollToSection(item);
+                    setIsMobileMenuOpen(false);
+                  }}
+                  className="block font-montserrat font-medium text-deep-charcoal capitalize w-full text-left py-2 hover:text-construction-orange transition-colors"
                 >
                   {item}
                 </button>

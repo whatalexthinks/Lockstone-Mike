@@ -20,7 +20,7 @@ export default function Footer() {
           >
             <div className="flex items-center mb-4">
               <img 
-                src="https://i.imgur.com/5avbZ8D.png" 
+                src="https://i.imgur.com/z5Eho1X.png" 
                 alt="Lockstone Concrete Logo"
                 className="h-10 w-auto brightness-0 invert"
               />

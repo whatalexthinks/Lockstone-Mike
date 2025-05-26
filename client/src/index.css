@@ -115,7 +115,7 @@
   }
 
   .pulse-glow {
-    animation: pulse-glow 4s ease-in-out infinite;
+    animation: pulse-glow 6s ease-in-out infinite;
   }
 
   @keyframes pulse-glow {

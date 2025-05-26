@@ -38,7 +38,7 @@ export default function Header() {
           transition={{ type: "spring", stiffness: 400, damping: 10 }}
         >
           <img 
-            src="https://i.imgur.com/z5Eho1X.png" 
+            src="https://i.imgur.com/kLoCLG2.png" 
             alt="Lockstone Concrete Logo"
             className="h-12 w-auto"
           />

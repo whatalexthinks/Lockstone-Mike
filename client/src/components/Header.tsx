@@ -40,7 +40,7 @@ export default function Header() {
           <img 
             src="https://i.imgur.com/xLPfVhS.png" 
             alt="Lockstone Concrete Logo"
-            className="h-12 w-auto"
+            className="h-16 w-auto"
           />
         </motion.div>
         

@@ -3,29 +3,29 @@ import { useIntersectionObserver } from "@/hooks/useIntersectionObserver";
 
 const concreteWork = [
   {
-    image: "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Commercial concrete flooring and foundations",
+    image: "https://images.pexels.com/photos/7931/pexels-photo-7931.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+    alt: "Commercial concrete building and structures",
     title: "Commercial Projects",
     description: "Large-scale concrete solutions for warehouses, retail spaces, and industrial facilities across Ada County.",
     icon: "fas fa-city"
   },
   {
-    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Beautiful residential concrete driveway and patio",
+    image: "https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+    alt: "Residential concrete work and cement mixing",
     title: "Residential Work",
     description: "Driveways, patios, walkways, and decorative concrete that enhances your home's value and appeal.",
     icon: "fas fa-home"
   },
   {
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Rural concrete work and farm applications",
+    image: "https://images.pexels.com/photos/19370588/pexels-photo-19370588.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+    alt: "Construction site with concrete work in progress",
     title: "Rural & Agricultural",
     description: "Barn floors, equipment pads, feed lots, and agricultural concrete solutions for rural Idaho properties.",
     icon: "fas fa-tractor"
   },
   {
-    image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Professional concrete foundation work",
+    image: "https://images.pexels.com/photos/15109999/pexels-photo-15109999.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+    alt: "Construction workers building concrete foundations",
     title: "Foundations",
     description: "Solid, durable foundations for residential and commercial buildings built to last generations.",
     icon: "fas fa-building"
@@ -38,8 +38,8 @@ const concreteWork = [
     icon: "fas fa-road"
   },
   {
-    image: "https://images.unsplash.com/photo-1585338447937-7082f8fc763d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Concrete stairs and steps construction",
+    image: "https://images.pexels.com/photos/5891589/pexels-photo-5891589.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+    alt: "Stone and concrete steps construction",
     title: "Stairs & Steps",
     description: "Custom concrete stairs, steps, and ramps designed for safety, durability, and aesthetic appeal.",
     icon: "fas fa-stairs"

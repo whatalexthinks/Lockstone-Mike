@@ -38,7 +38,7 @@ export default function Header() {
           transition={{ type: "spring", stiffness: 400, damping: 10 }}
         >
           <img 
-            src="@assets/ChatGPT Image May 26, 2025, 04_23_17 PM.png" 
+            src="https://i.imgur.com/YQGqGjy.png" 
             alt="Lockstone Concrete Logo"
             className="h-12 w-auto"
           />

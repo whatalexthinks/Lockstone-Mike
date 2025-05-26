@@ -22,7 +22,7 @@ export default function Footer() {
               <img 
                 src="https://i.imgur.com/xLPfVhS.png" 
                 alt="Lockstone Concrete Logo"
-                className="h-14 w-auto brightness-0 invert"
+                className="h-10 w-auto brightness-0 invert"
               />
             </div>
             <p className="text-gray-300 mb-4">

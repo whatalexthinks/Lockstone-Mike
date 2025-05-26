@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Roboto:wght@300;400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Lockstone Concrete Brand Colors */
+  --deep-charcoal: 210 22% 22%; /* #2C3E50 */
+  --concrete-gray: 184 9% 62%; /* #95A5A6 */
+  --construction-orange: 27 81% 51%; /* #E67E22 */
+  --steel-blue: 204 70% 53%; /* #3498DB */
+  
+  /* Base shadcn colors updated for concrete theme */
+  --background: 0 0% 100%;
+  --foreground: 210 22% 22%;
+  --muted: 184 9% 95%;
+  --muted-foreground: 184 9% 45%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 210 22% 22%;
+  --card: 0 0% 100%;
+  --card-foreground: 210 22% 22%;
+  --border: 184 9% 90%;
+  --input: 184 9% 90%;
+  --primary: 27 81% 51%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 184 9% 95%;
+  --secondary-foreground: 210 22% 22%;
+  --accent: 204 70% 53%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 27 81% 51%;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 210 22% 12%;
+  --foreground: 0 0% 98%;
+  --muted: 210 22% 20%;
+  --muted-foreground: 184 9% 65%;
+  --popover: 210 22% 12%;
+  --popover-foreground: 0 0% 98%;
+  --card: 210 22% 12%;
+  --card-foreground: 0 0% 98%;
+  --border: 210 22% 20%;
+  --input: 210 22% 20%;
+  --primary: 27 81% 51%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 210 22% 20%;
+  --secondary-foreground: 0 0% 98%;
+  --accent: 204 70% 53%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 62% 30%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 27 81% 51%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-roboto antialiased bg-background text-foreground overflow-x-hidden;
+  }
+}
+
+@layer components {
+  .font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .font-roboto {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .concrete-texture {
+    background-image: 
+      radial-gradient(circle at 20% 50%, hsl(var(--concrete-gray) / 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, hsl(var(--concrete-gray) / 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 40% 80%, hsl(var(--concrete-gray) / 0.1) 0%, transparent 50%);
+  }
+
+  .hero-overlay {
+    background: linear-gradient(135deg, hsl(var(--deep-charcoal) / 0.9) 0%, hsl(var(--deep-charcoal) / 0.7) 100%);
+  }
+
+  .service-card {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .service-card:hover {
+    @apply -translate-y-2 shadow-2xl;
+  }
+
+  .reveal {
+    @apply opacity-0 translate-y-12 transition-all duration-700 ease-out;
+  }
+
+  .reveal.revealed {
+    @apply opacity-100 translate-y-0;
+  }
+
+  .parallax-bg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @media (max-width: 768px) {
+    .parallax-bg {
+      background-attachment: scroll;
+    }
+  }
+
+  .pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% { 
+      box-shadow: 0 0 20px hsl(var(--construction-orange) / 0.3); 
+    }
+    50% { 
+      box-shadow: 0 0 30px hsl(var(--construction-orange) / 0.6); 
+    }
+  }
+
+  .float-animation {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+  }
+
+  .typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typewriter 3s steps(40) 1s forwards;
+  }
+
+  @keyframes typewriter {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+
+  .before-after-slider {
+    position: relative;
+    overflow: hidden;
+    cursor: ew-resize;
+  }
+
+  .slider-handle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: hsl(var(--construction-orange));
+    cursor: ew-resize;
+    z-index: 10;
+    transition: background-color 0.2s ease;
+  }
+
+  .slider-handle:hover {
+    background: hsl(var(--construction-orange) / 0.8);
+  }
+
+  .slider-handle::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background: hsl(var(--construction-orange));
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+
+  .slider-handle::after {
+    content: '⟷';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
+@layer utilities {
+  .text-deep-charcoal {
+    color: hsl(var(--deep-charcoal));
+  }
+  
+  .text-concrete-gray {
+    color: hsl(var(--concrete-gray));
+  }
+  
+  .text-construction-orange {
+    color: hsl(var(--construction-orange));
+  }
+  
+  .text-steel-blue {
+    color: hsl(var(--steel-blue));
+  }
+  
+  .bg-deep-charcoal {
+    background-color: hsl(var(--deep-charcoal));
+  }
+  
+  .bg-concrete-gray {
+    background-color: hsl(var(--concrete-gray));
+  }
+  
+  .bg-construction-orange {
+    background-color: hsl(var(--construction-orange));
+  }
+  
+  .bg-steel-blue {
+    background-color: hsl(var(--steel-blue));
+  }
+  
+  .border-construction-orange {
+    border-color: hsl(var(--construction-orange));
+  }
+  
+  .hover\:bg-construction-orange:hover {
+    background-color: hsl(var(--construction-orange));
+  }
+  
+  .hover\:text-construction-orange:hover {
+    color: hsl(var(--construction-orange));
+  }
+}

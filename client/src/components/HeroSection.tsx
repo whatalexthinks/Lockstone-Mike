@@ -47,21 +47,21 @@ export default function HeroSection() {
             className="font-montserrat font-black text-white mb-4 sm:mb-6"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            transition={{ duration: 0.5, ease: "easeOut" }}
           >
             <div className="text-2xl sm:text-4xl md:text-6xl lg:text-7xl mb-2 leading-tight">
               <TypewriterText 
                 text="ADA COUNTY'S PREMIER"
                 isVisible={isIntersecting}
-                speed={100}
+                speed={60}
                 className="block"
               />
             </div>
             <motion.div 
               className="text-xl sm:text-3xl md:text-5xl lg:text-6xl text-construction-orange leading-tight"
-              initial={{ opacity: 0, scale: 0.8 }}
+              initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.8, delay: 3.5, ease: "easeOut" }}
+              transition={{ duration: 0.5, delay: 1.8, ease: "easeOut" }}
             >
               CONCRETE EXPERTS
             </motion.div>
@@ -71,7 +71,7 @@ export default function HeroSection() {
             className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-200 mb-6 sm:mb-8 font-roboto font-light leading-relaxed px-2"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 4, ease: "easeOut" }}
+            transition={{ duration: 0.5, delay: 2.2, ease: "easeOut" }}
           >
             Building lasting foundations with 25+ years of proven expertise across Boise, Meridian, Kuna, Nampa & Caldwell
           </motion.p>
@@ -81,7 +81,7 @@ export default function HeroSection() {
             className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 md:gap-8 mb-8 sm:mb-12 px-2"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 4.5, ease: "easeOut" }}
+            transition={{ duration: 0.5, delay: 2.6, ease: "easeOut" }}
           >
             <motion.div 
               className="bg-white/10 backdrop-blur-sm rounded-lg p-4 sm:p-6"
@@ -126,7 +126,7 @@ export default function HeroSection() {
             className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 md:space-x-6 px-4"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 5, ease: "easeOut" }}
+            transition={{ duration: 0.5, delay: 3, ease: "easeOut" }}
           >
             <motion.button 
               onClick={scrollToContact}

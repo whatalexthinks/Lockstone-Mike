@@ -17,7 +17,12 @@ export default function Header() {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      const headerHeight = 80; // Account for fixed header
+      const elementPosition = element.offsetTop - headerHeight;
+      window.scrollTo({
+        top: elementPosition,
+        behavior: 'smooth'
+      });
       setIsMobileMenuOpen(false);
     }
   };
@@ -93,11 +98,8 @@ export default function Header() {
               {['services', 'about', 'gallery', 'testimonials', 'contact'].map((item) => (
                 <button
                   key={item}
-                  onClick={() => {
-                    scrollToSection(item);
-                    setIsMobileMenuOpen(false);
-                  }}
-                  className="block font-montserrat font-medium text-deep-charcoal capitalize w-full text-left py-2 hover:text-construction-orange transition-colors"
+                  onClick={() => scrollToSection(item)}
+                  className="block font-montserrat font-medium text-deep-charcoal capitalize w-full text-left py-3 hover:text-construction-orange transition-colors"
                 >
                   {item}
                 </button>

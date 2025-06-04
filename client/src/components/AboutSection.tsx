@@ -16,8 +16,8 @@ const features = [
   },
   {
     icon: "fas fa-gem",
-    title: "Spread Stone Certified",
-    description: "Certified installer of revolutionary Spread Stone overlay systems for stunning transformations."
+    title: "Spread Stone Specialists",
+    description: "Expert installation of revolutionary Spread Stone overlay systems for stunning concrete transformations."
   },
   {
     icon: "fas fa-spray-can",

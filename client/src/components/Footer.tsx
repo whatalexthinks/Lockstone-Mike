@@ -26,7 +26,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-gray-300 mb-4">
-              Ada County's premier concrete contractor with 25+ years of proven excellence in residential and commercial concrete solutions.
+              Ada County's premier concrete repair and coating specialists with 25+ years of expertise in restoration, resurfacing, epoxy coatings, and Spread Stone overlays.
             </p>
             <div className="flex space-x-4">
               <motion.a 

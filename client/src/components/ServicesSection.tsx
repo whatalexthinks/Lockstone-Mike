@@ -3,34 +3,34 @@ import { useIntersectionObserver } from "@/hooks/useIntersectionObserver";
 
 const services = [
   {
-    icon: "fas fa-road",
-    title: "DRIVEWAYS",
-    description: "Durable, attractive driveways that enhance your property's curb appeal and withstand Idaho's changing seasons."
-  },
-  {
-    icon: "fas fa-home",
-    title: "PATIOS & WALKWAYS", 
-    description: "Beautiful outdoor living spaces and safe walkways designed for both functionality and aesthetic appeal."
-  },
-  {
-    icon: "fas fa-building",
-    title: "FOUNDATIONS",
-    description: "Solid foundations that provide the structural integrity your building project needs for decades to come."
-  },
-  {
-    icon: "fas fa-city",
-    title: "COMMERCIAL PROJECTS",
-    description: "Large-scale commercial concrete solutions for businesses, warehouses, and industrial facilities."
-  },
-  {
-    icon: "fas fa-palette",
-    title: "DECORATIVE CONCRETE",
-    description: "Stamped, colored, and textured concrete that combines durability with stunning visual appeal."
-  },
-  {
     icon: "fas fa-tools",
-    title: "REPAIRS & RESTORATION",
-    description: "Expert repair and restoration services to extend the life of your existing concrete structures."
+    title: "CONCRETE REPAIR",
+    description: "Expert crack repair, spalling fixes, and structural restoration to bring your concrete back to life."
+  },
+  {
+    icon: "fas fa-layer-group",
+    title: "CONCRETE RESURFACING", 
+    description: "Transform worn concrete surfaces with professional resurfacing techniques that look like new."
+  },
+  {
+    icon: "fas fa-spray-can",
+    title: "EPOXY COATINGS",
+    description: "High-performance epoxy floor coatings for garages, basements, and commercial spaces that last."
+  },
+  {
+    icon: "fas fa-gem",
+    title: "SPREAD STONE OVERLAY",
+    description: "Revolutionary Spread Stone system that transforms old concrete into beautiful, durable surfaces."
+  },
+  {
+    icon: "fas fa-shield-alt",
+    title: "CONCRETE COATINGS",
+    description: "Protective and decorative coatings that enhance durability while providing stunning aesthetics."
+  },
+  {
+    icon: "fas fa-wrench",
+    title: "SURFACE PREPARATION",
+    description: "Professional diamond grinding, shot blasting, and surface prep for optimal coating adhesion."
   }
 ];
 
@@ -47,10 +47,10 @@ export default function ServicesSection() {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <h2 className="font-montserrat font-black text-4xl md:text-5xl text-deep-charcoal mb-4">
-            CONCRETE SOLUTIONS THAT LAST
+            CONCRETE REPAIR & COATING EXPERTS
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            From residential driveways to commercial foundations, we deliver precision craftsmanship that stands the test of time.
+            Specializing in concrete repair, resurfacing, epoxy coatings, and revolutionary Spread Stone overlay systems.
           </p>
         </motion.div>
         

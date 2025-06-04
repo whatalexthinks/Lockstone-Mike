@@ -3,46 +3,46 @@ import { useIntersectionObserver } from "@/hooks/useIntersectionObserver";
 
 const concreteWork = [
   {
+    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    alt: "Spread Stone overlay transformation",
+    title: "Spread Stone Overlay",
+    description: "Revolutionary Spread Stone system transforms old concrete into beautiful, durable decorative surfaces.",
+    icon: "fas fa-gem"
+  },
+  {
     image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-    alt: "Commercial concrete construction project",
-    title: "Commercial Projects",
-    description: "Large-scale concrete solutions for warehouses, retail spaces, and industrial facilities across Ada County.",
-    icon: "fas fa-city"
+    alt: "Epoxy floor coating application",
+    title: "Epoxy Floor Coatings",
+    description: "High-performance epoxy coatings for garages, basements, and commercial floors that resist wear and chemicals.",
+    icon: "fas fa-spray-can"
+  },
+  {
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    alt: "Concrete crack repair and restoration",
+    title: "Concrete Crack Repair",
+    description: "Expert crack injection, spalling repair, and structural restoration to extend concrete lifespan.",
+    icon: "fas fa-tools"
   },
   {
     image: "https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-    alt: "Residential concrete work and cement mixing",
-    title: "Residential Work",
-    description: "Driveways, patios, walkways, and decorative concrete that enhances your home's value and appeal.",
-    icon: "fas fa-home"
+    alt: "Concrete surface resurfacing work",
+    title: "Surface Resurfacing",
+    description: "Professional concrete resurfacing that makes old surfaces look brand new with lasting durability.",
+    icon: "fas fa-layer-group"
   },
   {
-    image: "https://images.pexels.com/photos/19370588/pexels-photo-19370588.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-    alt: "Construction site with concrete work in progress",
-    title: "Rural & Agricultural",
-    description: "Barn floors, equipment pads, feed lots, and agricultural concrete solutions for rural Idaho properties.",
-    icon: "fas fa-tractor"
-  },
-  {
-    image: "https://images.pexels.com/photos/15109999/pexels-photo-15109999.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-    alt: "Construction workers building concrete foundations",
-    title: "Foundations",
-    description: "Solid, durable foundations for residential and commercial buildings built to last generations.",
-    icon: "fas fa-building"
-  },
-  {
-    image: "https://i.imgur.com/anjDjYt.png",
-    alt: "Concrete curb and gutter work equipment",
-    title: "Curb Forming & Repair",
-    description: "Precision curb and gutter work, street repairs, and municipal concrete infrastructure projects.",
-    icon: "fas fa-road"
+    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    alt: "Decorative concrete coating application",
+    title: "Decorative Coatings",
+    description: "Protective and aesthetic concrete coatings that enhance both appearance and performance.",
+    icon: "fas fa-shield-alt"
   },
   {
     image: "https://images.pexels.com/photos/5891589/pexels-photo-5891589.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-    alt: "Stone and concrete steps construction",
-    title: "Stairs & Steps",
-    description: "Custom concrete stairs, steps, and ramps designed for safety, durability, and aesthetic appeal.",
-    icon: "fas fa-stairs"
+    alt: "Surface preparation and diamond grinding",
+    title: "Surface Preparation",
+    description: "Professional diamond grinding, shot blasting, and surface prep for optimal coating adhesion.",
+    icon: "fas fa-wrench"
   }
 ];
 
@@ -59,10 +59,10 @@ export default function GallerySection() {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <h2 className="font-montserrat font-black text-4xl md:text-5xl text-deep-charcoal mb-4">
-            OUR CONCRETE EXPERTISE
+            REPAIR & COATING SPECIALISTS
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            From commercial facilities to residential driveways, we deliver precision concrete work across all sectors.
+            Transforming damaged concrete with expert repair, resurfacing, coatings, and revolutionary Spread Stone overlay systems.
           </p>
         </motion.div>
         

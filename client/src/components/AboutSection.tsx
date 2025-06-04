@@ -6,33 +6,33 @@ const features = [
   {
     icon: "fas fa-calendar-alt",
     title: "25+ Years Experience",
-    description: "Decades of concrete expertise serving the greater Boise area with consistent quality and reliability.",
+    description: "Decades of specialized concrete repair and coating expertise serving the greater Boise area.",
     counter: 25
   },
   {
-    icon: "fas fa-shield-alt",
-    title: "Licensed & Insured",
-    description: "Fully licensed, bonded, and insured for your peace of mind and protection on every project."
+    icon: "fas fa-tools",
+    title: "Repair Specialists",
+    description: "Expert in crack injection, spalling repair, and structural concrete restoration techniques."
   },
   {
-    icon: "fas fa-map-marker-alt",
-    title: "Local Ada County Experts",
-    description: "Deep understanding of local soil conditions, weather patterns, and building requirements."
+    icon: "fas fa-gem",
+    title: "Spread Stone Certified",
+    description: "Certified installer of revolutionary Spread Stone overlay systems for stunning transformations."
   },
   {
-    icon: "fas fa-award",
-    title: "Premium Materials Only",
-    description: "We use only the highest-grade concrete and materials to ensure lasting durability and performance."
+    icon: "fas fa-spray-can",
+    title: "Coating Experts",
+    description: "Professional application of epoxy, polyurethane, and decorative concrete coating systems."
   },
   {
     icon: "fas fa-calculator",
     title: "Free Estimates",
-    description: "Transparent, detailed estimates with no hidden fees. Know exactly what you're investing in upfront."
+    description: "Transparent, detailed estimates for all repair, resurfacing, and coating projects."
   },
   {
-    icon: "fas fa-handshake",
-    title: "Guaranteed Quality",
-    description: "Standing behind our work with comprehensive warranties and a commitment to your satisfaction."
+    icon: "fas fa-shield-alt",
+    title: "Licensed & Insured",
+    description: "Fully licensed, bonded, and insured with comprehensive warranties on all work."
   }
 ];
 
@@ -49,10 +49,10 @@ export default function AboutSection() {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <h2 className="font-montserrat font-black text-4xl md:text-5xl text-deep-charcoal mb-4">
-            BUILT ON TRUST & EXPERTISE
+            CONCRETE REPAIR & COATING EXPERTS
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Why Ada County homeowners and businesses choose Lockstone Concrete for their most important projects.
+            Why Ada County property owners trust Lockstone Concrete for concrete repair, resurfacing, and Spread Stone transformations.
           </p>
         </motion.div>
         

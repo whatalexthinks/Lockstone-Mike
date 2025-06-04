@@ -63,7 +63,7 @@ export default function HeroSection() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 1.8, ease: "easeOut" }}
             >
-              CONCRETE EXPERTS
+              CONCRETE REPAIR SPECIALISTS
             </motion.div>
           </motion.h1>
           
@@ -73,7 +73,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 2.2, ease: "easeOut" }}
           >
-            Building lasting foundations with 25+ years of proven expertise across Boise, Meridian, Kuna, Nampa & Caldwell
+            Expert concrete repair, resurfacing, epoxy coatings & Spread Stone overlays across Boise, Meridian, Kuna, Nampa & Caldwell
           </motion.p>
           
           {/* Animated counters */}

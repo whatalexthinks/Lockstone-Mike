@@ -83,13 +83,6 @@ export default function GallerySection() {
                   className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-deep-charcoal/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                <motion.div 
-                  className="absolute top-4 left-4 w-12 h-12 bg-construction-orange rounded-lg flex items-center justify-center"
-                  whileHover={{ scale: 1.1, rotate: 5 }}
-                  transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                >
-                  <i className={`${work.icon} text-white text-xl`}></i>
-                </motion.div>
               </div>
               
               <div className="p-6">

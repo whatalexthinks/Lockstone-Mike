@@ -38,7 +38,7 @@ const concreteWork = [
     icon: "fas fa-shield-alt"
   },
   {
-    image: "https://images.pexels.com/photos/5891589/pexels-photo-5891589.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+    image: "https://i.imgur.com/7zce7P7.jpeg",
     alt: "Surface preparation and diamond grinding",
     title: "Surface Preparation",
     description: "Professional diamond grinding, shot blasting, and surface prep for optimal coating adhesion.",

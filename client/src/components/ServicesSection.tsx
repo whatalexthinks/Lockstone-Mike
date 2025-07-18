@@ -30,7 +30,8 @@ const services = [
   {
     icon: "fas fa-wrench",
     title: "SURFACE PREPARATION",
-    description: "Professional diamond grinding, shot blasting, and surface prep for optimal coating adhesion."
+    description: "Professional diamond grinding, shot blasting, and surface prep for optimal coating adhesion.",
+    image: "https://i.imgur.com/7zce7P7.jpeg"
   }
 ];
 

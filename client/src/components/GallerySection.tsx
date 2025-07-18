@@ -24,9 +24,9 @@ const concreteWork = [
     icon: "fas fa-tools"
   },
   {
-    image: "https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+    image: "https://i.imgur.com/oLvDWdI.jpeg",
     alt: "Concrete surface resurfacing work",
-    title: "Surface Resurfacing",
+    title: "Resurfacing",
     description: "Professional concrete resurfacing that makes old surfaces look brand new with lasting durability.",
     icon: "fas fa-layer-group"
   },

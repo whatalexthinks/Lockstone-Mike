@@ -31,7 +31,7 @@ const concreteWork = [
     icon: "fas fa-layer-group"
   },
   {
-    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    image: "https://i.imgur.com/8o5OXH2.jpeg",
     alt: "Decorative concrete coating application",
     title: "Decorative Coatings",
     description: "Protective and aesthetic concrete coatings that enhance both appearance and performance.",

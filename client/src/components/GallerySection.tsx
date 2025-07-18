@@ -65,7 +65,7 @@ export default function GallerySection() {
             Transforming damaged concrete with expert repair, resurfacing, coatings, and revolutionary Spread Stone overlay systems.
           </p>
         </motion.div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {concreteWork.map((work, index) => (
             <motion.div
@@ -76,15 +76,15 @@ export default function GallerySection() {
               transition={{ duration: 0.6, delay: index * 0.1, ease: "easeOut" }}
               whileHover={{ y: -8 }}
             >
-              <div className="relative overflow-hidden">
+              <div className="relative overflow-hidden rounded-t-lg bg-gray-100">
                 <img 
                   src={work.image} 
                   alt={work.alt}
-                  className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="gallery-image transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-deep-charcoal/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
-              
+
               <div className="p-6">
                 <h3 className="font-montserrat font-bold text-xl text-deep-charcoal mb-3 group-hover:text-construction-orange transition-colors">
                   {work.title}
@@ -93,7 +93,7 @@ export default function GallerySection() {
                   {work.description}
                 </p>
               </div>
-              
+
               <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-construction-orange to-steel-blue transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
             </motion.div>
           ))}

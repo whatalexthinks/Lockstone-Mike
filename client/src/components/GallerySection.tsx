@@ -76,11 +76,11 @@ export default function GallerySection() {
               transition={{ duration: 0.6, delay: index * 0.1, ease: "easeOut" }}
               whileHover={{ y: -8 }}
             >
-              <div className="relative overflow-hidden rounded-t-lg bg-gray-100">
+              <div className="relative overflow-hidden rounded-t-lg">
                 <img 
                   src={work.image} 
                   alt={work.alt}
-                  className="gallery-image transition-transform duration-500 group-hover:scale-105"
+                  className="w-full h-48 md:h-56 lg:h-64 object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-deep-charcoal/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>

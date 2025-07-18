@@ -17,7 +17,7 @@ const concreteWork = [
     icon: "fas fa-spray-can"
   },
   {
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    image: "https://i.imgur.com/xcADuTN.jpeg",
     alt: "Concrete crack repair and restoration",
     title: "Concrete Crack Repair",
     description: "Expert crack injection, spalling repair, and structural restoration to extend concrete lifespan.",

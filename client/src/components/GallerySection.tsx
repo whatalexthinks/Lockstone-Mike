@@ -3,7 +3,7 @@ import { useIntersectionObserver } from "@/hooks/useIntersectionObserver";
 
 const concreteWork = [
   {
-    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    image: "https://i.imgur.com/8jb52lR.jpeg",
     alt: "Spread Stone overlay transformation",
     title: "Spread Stone Overlay",
     description: "Revolutionary Spread Stone system transforms old concrete into beautiful, durable decorative surfaces.",

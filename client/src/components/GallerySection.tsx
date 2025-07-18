@@ -10,7 +10,7 @@ const concreteWork = [
     icon: "fas fa-gem"
   },
   {
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+    image: "https://i.imgur.com/RFxs2Mv.jpeg",
     alt: "Epoxy floor coating application",
     title: "Epoxy Floor Coatings",
     description: "High-performance epoxy coatings for garages, basements, and commercial floors that resist wear and chemicals.",
